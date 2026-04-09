@@ -26,16 +26,16 @@ CARA EDIT:
 
 
 
-- lepastu jalankan arahan ini
+# lepastu jalankan arahan ini
 
 'rasa train'
 
 
-- lepastu jalankah salah satu dari arahan ni untuk debug
+# lepastu jalankah salah satu dari arahan ni untuk debug
 
-'''rasa shell nlu  (chat dengan verbose)
+- rasa shell nlu  (chat dengan verbose)
 
-'''rasa shell (chat tanpa verbose)
+- rasa shell (chat tanpa verbose)
 
 
 -------------------------------------------------------------------------------------
