@@ -1,0 +1,56 @@
+version: "3.1"
+
+# Without Stories you will not have question and answer. you must combine nlu.yml and domain.yml to create conversation
+# Stories is like a set of situation you want the bot to go so it can predict next action, and it can make the bots memorize previous conversations
+# without stories. The bot do not have any memories of past conversations
+#       |
+#       |
+#      \./       
+
+
+#- story: i don't know how to cook
+#  steps:
+#  - intent: learn_cooking                    --> to trigger story "i don't know how to cook" you must ask question regarding intent learn_cooking    
+#  - action: utter_teach_cooking              --> then it response based on utter_teach_cooking
+#  - intent: mood_supportive                  --> then when you ask question again regarding mood_supportive the bot will mentions 
+#                                                 info from learn_cooking and then give response using utter_quotes
+
+# - action: utter_quotes                      --> if user skip mood_supportive it can continue to the next intent in the same story
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  
+  
+- story: bahasaMalaysia
+  steps:
+  - intent: malaysia
+  - action: utter_malaysia
+  
+  
+

@@ -1,0 +1,55 @@
+version: "3.1"
+
+#ANSWERS
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - malaysia
+
+
+
+# The response name must start with utter_ (this is a Rasa convention for responses).
+# response name is created here, then you can add it on rules.yml if you want to, this is optional
+
+
+# you can add multiple text for the same reponses, the bot will then choose it randomly
+# you can also add image using "image: yourimage.com" if you want to
+
+  
+ # create a joking response name "utter_joking" that will be called later 
+ 
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_malaysia:
+  - text: "apa khabar"
+      
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

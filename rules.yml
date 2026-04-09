@@ -1,0 +1,16 @@
+version: "3.1"
+
+# you can name the rules anything you want for example "start joking when user speaking nonsense" anything make you understand
+# rules is made to prevent error or doing things outside of intended
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
