@@ -1,10 +1,7 @@
 nak mulakan bot rasa kena guna python container untuk lebih kestabilan
 
 ### masuk dalam python container tu
-- <name>\Scripts\activate
-
-#### contoh:
-- bekas1\Scripts\activate
+- namaBekas\Scripts\activate
 
 
 --------------------------------------
