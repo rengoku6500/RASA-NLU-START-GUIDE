@@ -33,9 +33,9 @@ CARA EDIT:
 
 - lepastu jalankah salah satu dari arahan ni untuk debug
 
-'rasa shell nlu  (chat dengan verbose)'
+'''rasa shell nlu  (chat dengan verbose)
 
-'rasa shell (chat tanpa verbose)'
+'''rasa shell (chat tanpa verbose)
 
 
 -------------------------------------------------------------------------------------
