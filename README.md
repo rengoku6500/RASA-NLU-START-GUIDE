@@ -1,19 +1,6 @@
 nak mulakan bot rasa kena guna python container untuk lebih kestabilan
 
-
--------------------------------------------
-
-cipta python container baru(sekali je):
-python -m venv <name>
-
-contoh:
-python -m venv ./bekas1
-
-
--------------------------------------
-
-
-pastu masuk dalam container tu:
+masuk dalam python container tu:
 <name>\Scripts\activate
 
 contoh:
@@ -39,16 +26,16 @@ CARA EDIT:
 
 
 
-lepastu jalankan arahan ini
+- lepastu jalankan arahan ini
 
-rasa train
+'rasa train'
 
 
-lepastu jalankah salah satu dari arahan ni untuk debug
+- lepastu jalankah salah satu dari arahan ni untuk debug
 
-rasa shell nlu  (chat dengan verbose)
+'rasa shell nlu  (chat dengan verbose)'
 
-rasa shell (chat tanpa verbose)
+'rasa shell (chat tanpa verbose)'
 
 
 -------------------------------------------------------------------------------------
