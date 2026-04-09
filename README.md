@@ -24,11 +24,11 @@ bekas1\Scripts\activate
 
 cara guna bot
 
-mula mula edit la 4 fail ni
+mula mula edit la 3 fail ni
 
-nlu.yml(untuk berikan dan ajar soalan)[ada di folder data]
-domain.yml(untuk berikan dan ajar jawapan)[ada di fail utama]
-stories.yml(untuk gabungkan soalan dan jawapan)[ada di folder data]
+- nlu.yml(untuk berikan dan ajar soalan)[ada di folder data]
+- domain.yml(untuk berikan dan ajar jawapan)[ada di fail utama]
+- stories.yml(untuk gabungkan soalan dan jawapan)[ada di folder data]
 
 
 CARA EDIT:
