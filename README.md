@@ -1,38 +1,79 @@
-# Nak Mulakan Bot Rasa
+CARA EDIT BOT
 
-Nak mulakan bot rasa kena guna python container untuk lebih kestabilan
 
----
+ada di fail 'data'
+nlu.yml (untuk berikan soalan)
+stories.yml ( untuk gabungkan soalan dan jawapan)
 
-## Cipta Python Container Baru (sekali je)
 
-```bash
+ada di fail utama
+domain.yml (untuk berikan jawapan)
+
+
+
+
+nak mulakan bot rasa kena guna python container untuk lebih kestabilan
+
+
+-------------------------------------------
+
+cipta python container baru(sekali je):
 python -m venv <name>
 
-Contoh:
-
+contoh:
 python -m venv ./bekas1
-Masuk Dalam Container
+
+
+-------------------------------------
+
+
+pastu masuk dalam container tu:
 <name>\Scripts\activate
 
-Contoh:
-
+contoh:
 bekas1\Scripts\activate
-Cara Guna Bot
 
-Mula mula edit la 4 fail ni:
 
-nlu.yml (untuk berikan dan ajar soalan) [ada di folder data]
-domain.yml (untuk berikan dan ajar jawapan) [ada di fail utama]
-stories.yml (untuk gabungkan soalan dan jawapan) [ada di folder data]
-Cara Edit
-Mula mula masukkan soalan di nlu.yml, cipta intent baru
-Lepastu cipta jawapan di domain.yml, cipta action baru dan listkan intent baru di bahagian atas sekali
-Lepastu baru gabungkan intent dan action di stories.yml
-Jalankan Arahan
+--------------------------------------
+
+cara guna bot
+
+mula mula edit la 4 fail ni
+
+nlu.yml
+stories.yml
+domain.yml
+
+
+CARA EDIT:
+
+1. mula mula masukkan soalan di nlu.yml cipta intent baru
+2. lepastu cipta jawapan di domain.yml, cipta action baru dan listkan intent baru di bahagian atas sekali
+3. lepastu baru gabungkan intent dan action di stories.yml
+
+
+
+lepastu jalankan arahan ini
+
 rasa train
 
-Lepastu jalankah salah satu dari arahan ni untuk debug:
 
-rasa shell nlu  # chat dengan verbose
-rasa shell      # chat tanpa verbose
+lepastu jalankah salah satu dari arahan ni untuk debug
+
+rasa shell nlu  (chat dengan verbose)
+
+rasa shell (chat tanpa verbose)
+
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
