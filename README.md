@@ -9,7 +9,7 @@ bekas1\Scripts\activate
 
 --------------------------------------
 
-cara guna bot
+### cara guna bot
 
 mula mula edit la 3 fail ni
 
@@ -18,7 +18,7 @@ mula mula edit la 3 fail ni
 - stories.yml(untuk gabungkan soalan dan jawapan)[ada di folder data]
 
 
-CARA EDIT:
+### CARA EDIT:
 
 1. mula mula masukkan soalan di nlu.yml cipta intent baru
 2. lepastu cipta jawapan di domain.yml, cipta action baru dan listkan intent baru di bahagian atas sekali
@@ -26,12 +26,12 @@ CARA EDIT:
 
 
 
-# lepastu jalankan arahan ini
+### lepastu jalankan arahan ini
 
 'rasa train'
 
 
-# lepastu jalankah salah satu dari arahan ni untuk debug
+### lepastu jalankah salah satu dari arahan ni untuk debug
 
 - rasa shell nlu  (chat dengan verbose)
 
