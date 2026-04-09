@@ -40,9 +40,9 @@ cara guna bot
 
 mula mula edit la 4 fail ni
 
-nlu.yml
-stories.yml
-domain.yml
+nlu.yml(untuk berikan dan ajar soalan)
+domain.yml(untuk berikan dan ajar jawapan)
+stories.yml(untuk gabungkan soalan dan jawapan)
 
 
 CARA EDIT:
